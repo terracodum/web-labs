@@ -1,0 +1,37 @@
+{
+  "name": "lab5",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/ibm-plex-sans": "^5.3.0",
+    "@fontsource-variable/literata": "^5.3.0",
+    "axios": "^1.20.0",
+    "fp-ts": "^2.16.11",
+    "io-ts": "^2.2.22",
+    "vue": "^3.5.42",
+    "vue-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vite-plugin-pwa": "^2.0.0",
+    "vue-tsc": "^3.3.11",
+    "workbox-build": "^7.4.1",
+    "workbox-cacheable-response": "^7.4.1",
+    "workbox-core": "^7.4.1",
+    "workbox-expiration": "^7.4.1",
+    "workbox-precaching": "^7.4.1",
+    "workbox-routing": "^7.4.1",
+    "workbox-strategies": "^7.4.1",
+    "workbox-window": "^7.4.1"
+  }
+}
